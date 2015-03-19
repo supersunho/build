@@ -893,9 +893,9 @@ ifneq ($(OTA_PACKAGE_SIGNING_KEY),)
     PRODUCT_EXTRA_RECOVERY_KEYS := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
 else
     PRODUCT_EXTRA_RECOVERY_KEYS += \
+<<<<<<< HEAD
         build/target/product/security/sokp \
-        build/target/product/security/sokp-devkey \
-        build/target/product/security/bacon
+        build/target/product/security/sokp-devkey
 endif
 
 # Generate a file containing the keys that will be read by the
