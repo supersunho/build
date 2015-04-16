@@ -893,7 +893,6 @@ ifneq ($(OTA_PACKAGE_SIGNING_KEY),)
     PRODUCT_EXTRA_RECOVERY_KEYS := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
 else
     PRODUCT_EXTRA_RECOVERY_KEYS += \
-<<<<<<< HEAD
         build/target/product/security/sokp \
         build/target/product/security/sokp-devkey
 endif
